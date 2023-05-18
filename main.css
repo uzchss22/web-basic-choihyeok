@@ -1,0 +1,13 @@
+main {
+  display: flex;
+}
+
+#main_contents {
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#img_cherry {
+  width: 40vw;
+}

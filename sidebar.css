@@ -1,0 +1,43 @@
+#sidebar {
+  position: sticky;
+  background-color: #f1f2f6;
+  text-align: center;
+  top: 0;
+  height: 100vh;
+}
+
+#img_my_face {
+  width: 150px;
+  height: 150px;
+  margin: 30px 25px 40px 25px;
+}
+
+#contact {
+  position: absolute;
+  width: 200px;
+  bottom: 10px;
+  /* padding-top: 45vh; */
+  font-size: 1.5rem;
+}
+
+#icone {
+  display: flex;
+}
+
+#icone li {
+  padding-left: 20px;
+}
+
+#icone li a {
+  color: #2c3a47;
+}
+
+#icone li a:hover {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 630px) {
+  #sidebar {
+    display: none;
+  }
+}
