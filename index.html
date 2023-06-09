@@ -51,6 +51,7 @@
         <a href="#" class="hamberger">&#9776;</a>
       </div>
     </nav>
+
     <!-- 
     사이드바 간단한 소개
   -->
@@ -83,11 +84,18 @@
           </div>
         </footer>
       </aside>
+
       <!-- 
     메인 콘텐츠 영역
   -->
-
       <article id="main_contents">
+        <!-- 
+          dark mode switch
+         -->
+        <input type="checkbox" id="switch" onclick="darkMode()">
+        <label for="switch" class="toggle2">
+        <span class="toggle__handler"></span>
+        </label>
         <section id="my_info">
           <h4>&#149; 나는 누구인가<br /></h4>
           <p>
