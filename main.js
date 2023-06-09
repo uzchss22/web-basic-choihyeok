@@ -11,3 +11,5 @@ function darkMode() {
   const body = document.body;
   body.classList.toggle("dark-mode");
 }
+
+alert("날짜 및 시간 기능 미추가");
