@@ -9,7 +9,7 @@
 #img_my_face {
   width: 150px;
   height: 150px;
-  margin: 30px 25px 40px 25px;
+  margin: 30px 30px 40px 30px;
 }
 
 #contact {
@@ -24,7 +24,7 @@
 }
 
 #icone li {
-  padding-left: 20px;
+  padding-left: 26px;
 }
 
 #icone li a {
@@ -38,5 +38,18 @@
 @media screen and (max-width: 630px) {
   #sidebar {
     display: none;
+  }
+}
+
+/* 
+dark mode settings
+*/
+.dark-mode {
+  #sidebar {
+    background-color: #0e171e;
+    color: whitesmoke;
+  }
+  #icone li a {
+    color: whitesmoke;
   }
 }
