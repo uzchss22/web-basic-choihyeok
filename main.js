@@ -12,4 +12,29 @@ function darkMode() {
   body.classList.toggle("dark-mode");
 }
 
-alert("날짜 및 시간 기능 미추가");
+// 브라우저에 현재시각 표시
+let Target = document.getElementById("clock");
+        function clock() {
+            let time = new Date();
+
+            let year = time.getFullYear();
+            let month = time.getMonth();
+            
+            let date = time.getDate();
+            let day = time.getDay();
+            let hours = time.getHours();
+            let minutes = time.getMinutes();
+            let seconds = time.getSeconds();
+            
+            let week = ['Sun', 'Mun', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            let monthList = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+          ];
+
+            Target.innerText = 
+            `${week[day]} ${monthList[month]} ${date} ` +
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds} KST ` + year;
+                
+        }
+        clock();
+        setInterval(clock, 1000);
