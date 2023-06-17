@@ -13,11 +13,28 @@ main {
 }
 
 /* 
-dark mode
+dark mode settings
  */
- .dark-mode {
+.dark-mode {
   background-color: #1e272e;
   color: #dadada;
+}
+.dark-mode {
+  #nav {
+    background-color: #0e0700;
+  }
+  .nav_a {
+    color: #95afc0;
+  }
+}
+.dark-mode {
+  #sidebar {
+    background-color: #0e171e;
+    color: whitesmoke;
+  }
+  .sidebar_a {
+    color: whitesmoke;
+  }
 }
 
 /* 
@@ -37,10 +54,11 @@ check box design
   height: 32px;
   background: #dfe2e3;
   border-radius: 85px;
-  transition: background 500ms cubic-bezier(.445,.05,.55,.95);
+  transition: background 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-.toggle2:before,.toggle2:after {
-margin-top:5px;
+.toggle2:before,
+.toggle2:after {
+  margin-top: 5px;
 }
 .toggle2:before {
   content: "Light";
@@ -65,18 +83,18 @@ margin-top:5px;
   border-color: #debd56;
   box-shadow: none;
   background-size: 0;
-  transition: transform .5s;
+  transition: transform 0.5s;
   border: 0.188em solid #caba94;
 }
-#switch:checked+.toggle2 .toggle__handler{
-width:26px;
-height:26px;
-border-radius:50%;
-display:inline-block;
-transform:translate3d(28px,0,0) rotate(0);
-border:.188em solid #caba94;
-background:#ffefb5;
-transition:transform .2s ease-in-out,background .3s,border-color .3s
+#switch:checked + .toggle2 .toggle__handler {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-block;
+  transform: translate3d(28px, 0, 0) rotate(0);
+  border: 0.188em solid #caba94;
+  background: #ffefb5;
+  transition: transform 0.2s ease-in-out, background 0.3s, border-color 0.3s;
 }
 
 /* 

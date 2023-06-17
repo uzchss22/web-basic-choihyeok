@@ -6,7 +6,7 @@ menuIcone.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
 
-// dark mode
+// dark mode  # disable using teachable machine model
 function darkMode() {
   const body = document.body;
   body.classList.toggle("dark-mode");

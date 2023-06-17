@@ -29,29 +29,16 @@
   padding-left: 25px;
 }
 
-#icone li a {
+.sidebar_a {
   color: #2c3a47;
 }
 
-#icone li a:hover {
+.sidebar_a:hover {
   font-size: 2rem;
 }
 
 @media screen and (max-width: 630px) {
   #sidebar {
     display: none;
-  }
-}
-
-/* 
-dark mode settings
-*/
-.dark-mode {
-  #sidebar {
-    background-color: #0e171e;
-    color: whitesmoke;
-  }
-  #icone li a {
-    color: whitesmoke;
   }
 }

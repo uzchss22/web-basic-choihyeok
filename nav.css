@@ -1,5 +1,5 @@
 * {
-  font-family: 'Sunflower', sans-serif;
+  font-family: "Sunflower", sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ li {
   list-style: none;
 }
 
-a {
+.nav_a {
   text-decoration: none;
   color: #aaa69d;
 }
@@ -89,17 +89,5 @@ a {
 
   .category_list.active {
     display: flex;
-  }
-}
-
-/* 
-dark mode settings
-*/
-.dark-mode {
-  #nav {
-    background-color: #0e0700;
-  }
-  #nav a {
-    color: #95afc0;
   }
 }
