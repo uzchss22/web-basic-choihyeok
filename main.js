@@ -12,7 +12,7 @@ function darkMode() {
   body.classList.toggle("dark-mode");
 }
 
-// 브라우저에 현재시각 표시
+// display browser clock
 let Target = document.getElementById("clock");
         function clock() {
             let time = new Date();
