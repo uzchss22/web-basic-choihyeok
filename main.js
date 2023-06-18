@@ -1,7 +1,7 @@
 if (confirm("카메라 사용을 허용하시겠습니까?") == true){ 
   alert("조도감지를 통해 화면모드가 자동으로 변경됩니다.");
   tmdm();
-}else{
+} else{
   alert("카메라 사용이 취소되었습니다 \n스위치를 통해 야간모드로 설정할 수 있습니다.");
 }
 // hamberger menu incone element active
@@ -100,8 +100,9 @@ function tmdm() {
       document.querySelector("body").style.color = "black";
       document.querySelector("#nav").style.backgroundColor = "#2c3a47";
       document.querySelector("#sidebar").style.backgroundColor =
-        "#f1f2f6";
+      "#f1f2f6";
       document.querySelector("#sidebar").style.color = "#2c3a47";
+      document.querySelector(".hamberger").style.color = "#aaa69d";
       var tempNavA = document.querySelectorAll(".nav_a");
       for (let i = 0; i <= 3; i++) tempNavA[i].style.color = "#aaa69d";
       var tempSidebarA = document.querySelectorAll(".sidebar_a");
@@ -115,6 +116,7 @@ function tmdm() {
       document.querySelector("#sidebar").style.backgroundColor =
         "#0e171e";
       document.querySelector("#sidebar").style.color = "whitesmoke";
+      document.querySelector(".hamberger").style.color = "#95afc0";
       var tempNavA = document.querySelectorAll(".nav_a");
       for (let i = 0; i <= 3; i++) tempNavA[i].style.color = "#95afc0";
       var tempSidebarA = document.querySelectorAll(".sidebar_a");
